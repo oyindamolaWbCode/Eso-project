@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  @apply leading-[normal] m-0;
+}
+*,
+::before,
+::after {
+  border-width: 0;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.header {
+  background-image: url("./public/backgroundImage.svg");
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
